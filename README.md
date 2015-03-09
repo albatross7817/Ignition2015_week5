@@ -13,19 +13,19 @@ A. Read the [Odin Project Routing Guide](http://www.theodinproject.com/ruby-on-r
   6. What is the Rails helper method that creates the HTML for links?<br\>The rails helper method that creates the HTML for links is "link_to".  This helper method is truly helpful in that if you later on decide to change the URL, then the 'link_to' method will automatically update the change and it will not be necessary to go through the file and change the link manually (as would be necessary if the URL was hard coded into the file).<br\><br\>
 B. Read the [Odin Project Controller Guide](http://www.theodinproject.com/ruby-on-rails/controllers)<br\>
 C. Read the [Odin Project Views Guide](http://www.theodinproject.com/ruby-on-rails/views) and use it to <strong>answer the following questions</strong>:<br\>
-  1. What is a layout?<br\>
-  1. What's the difference between a "view template" and a "layout"?
-  1. What is a "Preprocessor"?
-  1. Why are preprocessors useful?
-  1. How do you make sure a preprocessor runs on your file?
-  1. What's the outputted filetype of a preprocessed *.html.erb file? What about a *.css.scss file?
-  1. What is the difference between the <%= and <% tags?
-  1. What is a view partial?
-  1. How do you insert a partial into your view?
-  1. How can you tell that a view file is a partial?
-  1. How do you pass a local variable to a partial?
-  1. What's the magical Rails shortcut for rendering a User? A bunch of Users?
-  1. What are asset tags and why are they used?
+  7. What is a layout?<br\>A layout can be viewed as a 'shell' that is used to help build individual webpages.  It contains code that will be common to all of the pages used, such as the docytpe declaration and html tags, in addition to instructions which load the javascript and css files where needed.  A layout emphasizes the DRY (Don't Repeat Yourself) mantra used in rails programming, in that since all webpages will need the code presented in the layout file, it can be written once and implemented many times; namely by each individual webpage when needed.<br\><br\>  
+  8. What's the difference between a "view template" and a "layout"?<br\>A "view template" is a file that includes specific instructions to create an individual webpage; as such, it incorporates a "layout" which is a file that is common code for all the webpages used in the application.  We can consider the "view template" as the specific instructions to build each individual webpage whereas the "layout" contains the generic instructions common to the entire collection of webpages being utilized.  While an application will only have one single layout file, it generally will have many view template files.<br\><br\> 
+  9. What is a "Preprocessor"?
+  10. Why are preprocessors useful?
+  11. How do you make sure a preprocessor runs on your file?
+  12. What's the outputted filetype of a preprocessed *.html.erb file? What about a *.css.scss file?
+  13. What is the difference between the <%= and <% tags?
+  14. What is a view partial?
+  15. How do you insert a partial into your view?
+  16. How can you tell that a view file is a partial?
+  17. How do you pass a local variable to a partial?
+  18. What's the magical Rails shortcut for rendering a User? A bunch of Users?
+  19. What are asset tags and why are they used?
 1. (By Monday 3/9) By yourself, complete the [Odin Project: Basic Routes, Views and Controllers](http://www.theodinproject.com/ruby-on-rails/basic-routes-views-and-controllers)
   1. Skip step 1 of the Application Skeleton section.  As we did last week, you will:
     1. Create a new Rails workspace on C9
