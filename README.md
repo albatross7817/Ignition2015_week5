@@ -4,15 +4,15 @@ Diving deeper in the MVC aspects of Rails
 # Week 5: Rails MVC
 
 #### Required 
-1. Read the [Odin Project Routing Guide](http://www.theodinproject.com/ruby-on-rails/routing) and use it to <strong>answer the following questions</strong>
-  1. What is the "Root" route?
-  1. What are the seven RESTful routes for a resource?
-  1. Which RESTful routes share the same URL but use different verbs?
-  1. How do you specify an ID or other variable in a route?
-  1. How can you easily write all seven RESTful routes in Rails?
-  1. What is the Rails helper method that creates the HTML for links?
-1. Read the [Odin Project Controller Guide](http://www.theodinproject.com/ruby-on-rails/controllers)
-1. Read the [Odin Project Views Guide](http://www.theodinproject.com/ruby-on-rails/views) and use it to <strong>answer the following questions</strong>
+A. Read the [Odin Project Routing Guide](http://www.theodinproject.com/ruby-on-rails/routing) and use it to <strong>answer the following questions</strong>
+  1. What is the "Root" route?<br\>The "Root" route is an instruction inside the 'config/routes.rb' file which lets Rails know how and where to set up the application when it is used.  It typically takes the form of a URL (Uniform Rersource Locator) that specifies a controller and action for Rails to map the route to.  The 'root' route is the simplest and most important route in the 'routes.rb' file because it defines a starting point for the application once it is in use.<br\><br\>
+  2. What are the seven RESTful routes for a resource?<br\>The seven RESTful routes for a resource are (i) GET all the posts ("index" the posts); (ii) GET just one specific post ("show" one specific post); (iii) GET the page to create a new post (view the "new" post page); (iv) POST inputted data back to the server ("create" the post); (v) GET the page to edit an existing post (view the "edit" post page); (vi) PUT the inputted edit data back to the server so it can be updated ("update the post); and (vii) DELETE a specific post ("destroy" the post).<br\><br\>
+  3. Which RESTful routes share the same URL but use different verbs?<br\>There are only four different URL RESTful routes ('GET', 'POST', 'PUT', and 'DELETE').  Of these four, 'GET' is implemented using four different verbs: "index"; "show"; "new"; and "edit".  From my answer to Question 2, we see that these correspond to RESTFUL routes (i), (ii), (iii), and (v), respectively.  Thus, GET->"index" corresponds to retrieving all the posts; GET->"show" corresponds to retrieving a single post; GET->"new" corresponds to creating a new post; and GET ->"edit" corresponds to editing an existing post.<br\><br\>
+  4. How do you specify an ID or other variable in a route?
+  5. How can you easily write all seven RESTful routes in Rails?
+  6. What is the Rails helper method that creates the HTML for links?
+B. Read the [Odin Project Controller Guide](http://www.theodinproject.com/ruby-on-rails/controllers)
+C. Read the [Odin Project Views Guide](http://www.theodinproject.com/ruby-on-rails/views) and use it to <strong>answer the following questions</strong>
   1. What is a layout?
   1. What's the difference between a "view template" and a "layout"?
   1. What is a "Preprocessor"?
