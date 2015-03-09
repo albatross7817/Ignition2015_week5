@@ -5,7 +5,7 @@
 - Which RESTful routes share the same URL but use different verbs?<br\>There are only four different URL's for the seven RESTful routes ('GET', 'POST', 'PUT', and 'DELETE'). Of these four, 'GET' is implemented using four different verbs: "index"; "show"; "new"; and "edit". From my answer to Question 2, we see that these correspond to RESTFUL routes (i), (ii), (iii), and (v), respectively. Thus, GET->"index" corresponds to retrieving all the posts; GET->"show" corresponds to retrieving a single post; GET->"new" corresponds to creating a new post; and GET ->"edit" corresponds to editing an existing post.<br\><br\>
 - How do you specify an ID or other variable in a route?<br\>To specify an ID or other variable in a route, we add a colon before it (i.e, ':id' specifies an ID and ':except' specifies the except variable).<br\><br\>
 - How can you easily write all seven RESTful routes in Rails?<br\>Rather than writing out all seven RESTful routes individually, we can write all seven of them in the 'routes.rb' file using only one line of code: "resources :posts".<br\><br\>
-- What is the Rails helper method that creates the HTML for links?
+- What is the Rails helper method that creates the HTML for links?<br\>The rails helper method that creates the HTML for links is "link_to". This helper method is truly helpful in that if you later on decide to change the URL, then the 'link_to' method will automatically update the change and it will not be necessary to go through the file and change the link manually (as would be necessary if the URL was hard coded into the file).<br\><br\>
 
 ##### Odin Project Views Guide Questions:
 - What is a layout?
