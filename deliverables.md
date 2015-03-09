@@ -13,7 +13,7 @@
 - What is a "Preprocessor"?<br\>A "preprocessor" is an extension added to a file name that provides instructions to the computer about how to interpret the file it is being presented. Common preprocessors extensions include 'erb', 'scss', and 'coffee'. These extensions are flags that the file contains embedded code which needs to be interpreted first before the full html file is sent to the server for display.<br\><br\>
 - Why are preprocessors useful?<br\>Preprocessors are useful because they allow developers to add dynamic content to an html page; which by the nature of its structure, is static. The use of preprocessors allows additional code, such as running loops and callling variables, that ordinarily could not be interpreted by a browser as html code. Preprocessors allow us to include various types of code (i.e., Ruby, SASS, Coffescript) into an html (or css or javascript) file and have it compile in a way such that the browser will be able to interpret it correctly and display the content properly rather than generating errors and displaying garbage.<br\><br\>
 - How do you make sure a preprocessor runs on your file?<br\>All that is needed to make sure a preprocessor runs on a file is that the correct file extension is used and implemented properly (i.e., preceded by a '.' and 'spelled' correctly). As long as the file extension is correctly implemented, Rails will take care of the rest!<br\><br\>
-- What's the outputted filetype of a preprocessed *.html.erb file? What about a *.css.scss file?
+- What's the outputted filetype of a preprocessed *.html.erb file? What about a *.css.scss file?<br\>
 - What is the difference between the <%= and <% tags?
 - What is a view partial?
 - How do you insert a partial into your view?
