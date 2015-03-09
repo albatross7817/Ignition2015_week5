@@ -1,6 +1,6 @@
 #### Deliverables for week 5 Rails MVC
 ##### Odin Project Routing Guide Questions:
-- What is the "Root" route?
+- What is the "Root" route?<br\>The "Root" route is an instruction inside the 'config/routes.rb' file which lets Rails know how and where to set up the application when it is used. It typically takes the form of a URL (Uniform Rersource Locator) that specifies a controller and action for Rails to map the route to. The 'root' route is the simplest and most important route in the 'routes.rb' file because it defines a starting point for the application once it is in use.<br\><br\>
 - What are the seven RESTful routes for a resource?
 - Which RESTful routes share the same URL but use different verbs?
 - How do you specify an ID or other variable in a route?
