@@ -8,7 +8,7 @@
 - What is the Rails helper method that creates the HTML for links?<br\>The rails helper method that creates the HTML for links is "link_to". This helper method is truly helpful in that if you later on decide to change the URL, then the 'link_to' method will automatically update the change and it will not be necessary to go through the file and change the link manually (as would be necessary if the URL was hard coded into the file).<br\><br\>
 
 ##### Odin Project Views Guide Questions:
-- What is a layout?
+- What is a layout?<br\>A layout can be viewed as a 'shell' that is used to help build individual webpages. It contains code that will be common to all of the pages used, such as the docytpe declaration and html tags, in addition to instructions which load the javascript and css files where needed. A layout emphasizes the DRY (Don't Repeat Yourself) mantra used in rails programming, in that since all webpages will need the code presented in the layout file, it can be written once and implemented many times; namely by each individual webpage when needed.<br\><br\>
 - What's the difference between a "view template" and a "layout"?
 - What is a "Preprocessor"?
 - Why are preprocessors useful?
