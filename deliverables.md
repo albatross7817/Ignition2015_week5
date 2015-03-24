@@ -24,4 +24,4 @@
 
 ##### Link to Odin Project Basic Routes, Views and Controllers repo: [my odin repo](https://odin-rvc-albatross7817-1.c9.io)
 ##### Link to Hartl's Rails Tutorial Chapter 5 repo: [my hartl's repo](https://github.com/albatross7817/hartl_ch5_tut)
-##### Link to Heroku App for Ch 5 Hartl Tutorial: [my Heroku app](https://aqueous-taiga-8668.herokuapp.com/)
+##### Link to Heroku App for Ch 5 Hartl Tutorial: [my Heroku app](https://vast-shore-5408.herokuapp.com/)
